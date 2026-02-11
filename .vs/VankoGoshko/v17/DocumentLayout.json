@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|c:\\diplomna rabota\\vankogoshko\\vankogoshko\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|solutionrelative:vankogoshko\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|c:\\diplomna rabota\\vankogoshko\\vankogoshko\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|solutionrelative:vankogoshko\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|c:\\diplomna rabota\\vankogoshko\\vankogoshko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4823B843-F4D2-4A55-AD27-C0AED112B213}|VankoGoshko\\VankoGoshko.csproj|solutionrelative:vankogoshko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\Expense.cs",
+              "RelativeDocumentMoniker": "VankoGoshko\\Expense.cs",
+              "ToolTip": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\Expense.cs",
+              "RelativeToolTip": "VankoGoshko\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:23:20.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExpenseManager.cs",
+              "DocumentMoniker": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\ExpenseManager.cs",
+              "RelativeDocumentMoniker": "VankoGoshko\\ExpenseManager.cs",
+              "ToolTip": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\ExpenseManager.cs",
+              "RelativeToolTip": "VankoGoshko\\ExpenseManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:22:39.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\Program.cs",
               "RelativeDocumentMoniker": "VankoGoshko\\Program.cs",
               "ToolTip": "C:\\DIPLOMNA RABOTA\\VankoGoshko\\VankoGoshko\\Program.cs",
               "RelativeToolTip": "VankoGoshko\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T08:04:31.598Z",
               "EditorCaption": ""
