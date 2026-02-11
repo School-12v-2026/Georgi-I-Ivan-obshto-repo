@@ -20,6 +20,7 @@ class Program
             Console.WriteLine("3. Изтрий разход");
             Console.WriteLine("4. Изход");
             Console.WriteLine("5. Статистика");
+            Console.WriteLine("6. Сортиране");
 
 
             Console.Write("Избор: ");
@@ -33,6 +34,8 @@ class Program
                 case "4":
                     manager.SaveToFile(); break;
                 case "5": ShowStats();
+                    break;
+                case "6": SortMenu(); break;
 
                     return;
             }
@@ -96,6 +99,28 @@ class Program
     foreach (var item in manager.GetByCategory())
     {
         Console.WriteLine($"{item.Key} - {item.Value:F2} лв");
+    }
+}
+
+static void SortMenu()
+{
+    Console.WriteLine("1. По сума");
+    Console.WriteLine("2. По дата");
+    Console.WriteLine("3. По категория");
+
+    string choice = Console.ReadLine();
+
+    var list = choice switch
+    {
+        "1" => manager.SortByAmount(),
+        "2" => manager.SortByDate(),
+        "3" => manager.SortByCategory(),
+        _ => manager.GetAll()
+    };
+
+    foreach (var e in list)
+    {
+        PrintColoredExpense(e);
     }
 }
 
