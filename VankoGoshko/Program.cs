@@ -19,6 +19,8 @@ class Program
             Console.WriteLine("2. Покажи всички");
             Console.WriteLine("3. Изтрий разход");
             Console.WriteLine("4. Изход");
+            Console.WriteLine("5. Статистика");
+
 
             Console.Write("Избор: ");
             string choice = Console.ReadLine();
@@ -29,7 +31,9 @@ class Program
                 case "2": ShowAll(); break;
                 case "3": Delete(); break;
                 case "4":
-                    manager.SaveToFile();
+                    manager.SaveToFile(); break;
+                case "5": ShowStats();
+
                     return;
             }
         }
@@ -78,4 +82,21 @@ class Program
         Console.WriteLine(e);
         Console.ResetColor();
     }
+    static void ShowStats()
+{
+    Console.WriteLine($"Общо похарчено: {manager.GetTotalSpent():F2} лв");
+
+    var max = manager.GetMaxExpense();
+    if (max != null)
+        Console.WriteLine($"Най-голям разход: {max}");
+
+    Console.WriteLine($"Среден разход: {manager.GetAverageExpense():F2} лв");
+
+    Console.WriteLine("По категории:");
+    foreach (var item in manager.GetByCategory())
+    {
+        Console.WriteLine($"{item.Key} - {item.Value:F2} лв");
+    }
+}
+
 }
